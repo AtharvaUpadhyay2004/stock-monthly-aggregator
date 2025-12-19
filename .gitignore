@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Keep local datasets out of git by default
+data/*.csv
+
+# Generated outputs (remove these lines if you want to commit outputs)
+output/*.csv
+output/
